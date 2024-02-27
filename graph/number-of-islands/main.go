@@ -1,6 +1,6 @@
 package main
 
-// https://leetcode.cn/problems/number-of-islands/description/
+// 200. https://leetcode.cn/problems/number-of-islands/description/
 // 思路: 使用深度优先搜索，将1的上下左右的1都遍历完才算找到一块陆地
 // 一个岛屿：当且仅当它的上下左右都是0时才是岛屿，当踩到岛屿的时候，将当前踩到的陆地置为0继续遍历，当1的前后左右都是0是岛屿搜寻结束，返回1(代表一块陆地)
 // 当前graph[i][j] == '1'  graph[i-1][j] graph[i+1][j] graph[i][j-1] graph[i][j+1]
